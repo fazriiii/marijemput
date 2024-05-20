@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parallax">
+        <div class="invitation-card">
+            <div class="scrollable-content">
+                <div class="section">
+                    <h2>1st section</h2>
+                    <h1 style="font-family: 'Parisienne', cursive;">Mariani <br>& <br>Mazlan</h1>
+                    <p>SABTU</p>
+                    <p>20 JANUARI 2024</p>
+                    <p>BUKIT BERUNTUNG GOLF CLUB</p>
+                    <p>ASSALAMUALAIKUM WBT & SALAM SEJAHTERA</p>
+                    <p>MAHMUD BIN JAAFAR & AZIZAH BINTI HASHIM</p>
+                    <p>SABTU</p>
+                    <p>20 JANUARI 2024</p>
+                    <p>BUKIT BERUNTUNG GOLF CLUB</p>
+                    <p>ASSALAMUALAIKUM WBT & SALAM SEJAHTERA</p>
+                    <p>MAHMUD BIN JAAFAR & AZIZAH BINTI HASHIM</p>
+                    <p>SABTU</p>
+                    <p>20 JANUARI 2024</p>
+                    <p>BUKIT BERUNTUNG GOLF CLUB</p>
+                    <p>ASSALAMUALAIKUM WBT & SALAM SEJAHTERA</p>
+                    <p>MAHMUD BIN JAAFAR & AZIZAH BINTI HASHIM</p>
+                </div>
+                <div class="section">
+                    <h2>2nd section</h2>
+                    <h1 style="font-family: 'Parisienne', cursive;">Mariani <br>& <br>Mazlan</h1>
+                    <p>SABTU</p>
+                    <p>20 JANUARI 2024</p>
+                    <p>BUKIT BERUNTUNG GOLF CLUB</p>
+                    <p>ASSALAMUALAIKUM WBT & SALAM SEJAHTERA</p>
+                    <p>MAHMUD BIN JAAFAR & AZIZAH BINTI HASHIM</p>
+                </div>
+                <div class="section">
+                    <h2>3rd section</h2>
+                    <h1 style="font-family: 'Parisienne', cursive;">Mariani <br>& <br>Mazlan</h1>
+                    <p>SABTU</p>
+                    <p>20 JANUARI 2024</p>
+                    <p>BUKIT BERUNTUNG GOLF CLUB</p>
+                    <p>ASSALAMUALAIKUM WBT & SALAM SEJAHTERA</p>
+                    <p>MAHMUD BIN JAAFAR & AZIZAH BINTI HASHIM</p>
+                </div>
+                <div class="section">
+                    <h2>4th section</h2>
+                    <h1 style="font-family: 'Parisienne', cursive;">Mariani <br>& <br>Mazlan</h1>
+                    <p>SABTU</p>
+                    <p>20 JANUARI 2024</p>
+                    <p>BUKIT BERUNTUNG GOLF CLUB</p>
+                    <p>ASSALAMUALAIKUM WBT & SALAM SEJAHTERA</p>
+                    <p>MAHMUD BIN JAAFAR & AZIZAH BINTI HASHIM</p>
+                </div>
+                <div class="section">
+                    <h2>5th section</h2>
+                    <h1 style="font-family: 'Parisienne', cursive;">Mariani <br>& <br>Mazlan</h1>
+                    <p>SABTU</p>
+                    <p>20 JANUARI 2024</p>
+                    <p>BUKIT BERUNTUNG GOLF CLUB</p>
+                    <p>ASSALAMUALAIKUM WBT & SALAM SEJAHTERA</p>
+                    <p>MAHMUD BIN JAAFAR & AZIZAH BINTI HASHIM</p>
+                </div>
+                <div id="info-container">
+                    <div id="rsvp" class="info-content">RSVP Information...</div>
+                    <div id="gift" class="info-content">Money Gift Information...</div>
+                    <div id="contact" class="info-content">Contact Information...</div>
+                    <div id="location" class="info-content">Location Information...</div>
+                    <div id="calendar" class="info-content">Calendar Information...</div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-buttons">
+            <button onclick="showInfo('rsvp')">RSVP</button>
+            <button onclick="showInfo('gift')">Money Gift</button>
+            <button onclick="showInfo('contact')">Contact</button>
+            <button onclick="showInfo('location')">Location</button>
+            <button onclick="showInfo('calendar')">Calendar</button>
+        </div>
+        <!-- <button class="toggle-info-btn" onclick="toggleInfo()">More Info</button> -->
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
